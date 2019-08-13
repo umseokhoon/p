@@ -31,5 +31,54 @@ if []:
     print("참")
 else:
     print("거짓")
+============================================================
 
+a = 1 
+b = "ptyhon"
+c = [1,2,3]
+a =  [1,2,3]
+id(a)
+139730591915016
+a = [1,2,3]
+b = a
+id(a)
+139730591439752
+id(b)
+139730591439752
+a is b
+a is b
+True
+​
+a
+a[1] = 4
+a
+[1, 4, 3]
+b
+[1, 4, 3]
+a = [1,2,3]
+b = a[:]
+a[1]=4
+a
+[1, 4, 3]
+b
+b
+[1, 2, 3]
+from copy import copy
+b = copy(a)
+b is a 
+b is a 
+False
+a,b = ('python','life')
+(a,b) = 'python', 'life'
+'
+[a,b] = ['python', 'life']
+a = b = 'python'
+a = 3
+b= 5
+a,b=b,a
+a
+5
+b
+b
+3
 
